@@ -1,0 +1,158 @@
+:root{
+    --primary-color:rgb(224, 235, 247);
+    --secondary-color: #c7c4c4;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.nav-container {
+    background-color: rgb(5, 175, 110);
+    position: fixed;
+    top: 0px;
+}
+table{
+    border-collapse: collapse;
+    margin-top: 150px;
+}
+
+th,td{
+    min-width: 80px;
+    /* width is increasing with extra content */
+    border: 1px solid ;
+}
+
+td{
+    outline: none;
+}
+
+#current-cell{
+    display: inline-block;
+}
+
+.table-top-cont{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+#bold-btn{
+    font-weight: bold;
+}
+
+#italics-btn{
+    font-style: italic;
+}
+
+#underline-btn{
+    text-decoration: underline;
+}
+
+#button-container{
+    display: flex;
+    gap: 5px;
+}
+.nav-container{
+    width: 100%;
+}
+.table-top h1{
+    font-size: 12px;
+    font-weight: 700;
+    width: 100%;
+    padding: 3px;
+    height: 20px;
+    background-color: var(--primary-color);
+    text-align: center;
+    /* position: fixed; */
+}
+.font-styles{
+    margin: 20px;
+    background-color: var(--primary-color);
+    color: black;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+#current-cell,#bold-btn,#italics-btn,#underline-btn{
+    font-size: 12px;
+    margin: 2px;
+    padding: 2px;
+    color: black;
+    border-radius: 5px;
+   border-color: var(--primary-color);
+}
+.align-items{
+    background-color: var(--primary-color);
+    color: black;
+    border-radius: 2px;
+    margin-right: 2px;
+}
+#left-btn,#center-btn,#right-btn{
+    font-size: 12px;
+    margin: 2px;
+    padding: 2px;
+    color: black;
+    border-radius: 5px;
+    border-color: var(--secondary-color);
+}
+.colors{
+    background-color: var(--primary-color);
+    border-radius: 5px;
+    margin: 2px;
+    padding: 2px;
+}
+#bgColor,#fontColor{
+    font-size: 12px;
+    margin: 2px;
+    padding: 2px;
+    color: black;
+    border-radius: 5px;
+   border-color: var(--secondary-color);
+}
+.align-items2{
+    background-color: var(--primary-color);
+    color: black;
+    border-radius: 2px;
+    margin-right: 2px;
+}
+#cut-btn,#copy-btn,#paste-btn{
+    font-size: 12px;
+    margin: 2px;
+    padding: 2px;
+    color: black;
+    border-radius: 5px;
+   border-color: var(--secondary-color);
+}
+.files{
+    background-color: var(--primary-color);
+    color: black;
+    border-radius: 2px;
+    margin-right: 2px;
+}
+#download-btn,#upload-input,#save-sheet-btn{
+    font-size: 12px;
+    margin: 2px;
+    padding: 2px;
+    color: black;
+    border-radius: 5px;
+   border-color: var(--secondary-color);
+}
+#add-sheet-btn{
+    font-size: 12px;
+    margin: 5px;
+    padding: 2px;
+    color: black;
+    border-radius: 5px;
+    background-color: var(--primary-color);;
+   border-color:var(--secondary-color);
+}
+#button-container button{
+    font-size: 12px;
+    margin: 5px;
+    padding: 2px;
+    color: black;
+    border-radius: 5px;
+    background-color: var(--primary-color);;
+   border-color: #c7c4c4;
+}
